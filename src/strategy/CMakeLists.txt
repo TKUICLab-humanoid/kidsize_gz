@@ -26,17 +26,13 @@ set(ROSCOMMUNICATION_LIBRARIES ${CATKIN_DEVEL_PREFIX}/lib/libroscommunication.so
 # find_package(Boost REQUIRED COMPONENTS system)
 
 ## Generate messages in the 'msg' folder
-#add_message_files(DIRECTORY msg
+# add_message_files(DIRECTORY msg
 #	FILES
-#)
-add_message_files(DIRECTORY msg
-	FILES
-)
+# )
 ## Generate services in the 'srv' folder
-#add_service_files(DIRECTORY srv 
+# add_service_files(DIRECTORY srv 
 #	FILES
-#)
-add_service_files(DIRECTORY srv FILES Loadquickchange.srv)
+# )
 ## Generate actions in the 'action' folder
 # add_action_files(
 #   FILES
@@ -45,7 +41,7 @@ add_service_files(DIRECTORY srv FILES Loadquickchange.srv)
 # )
 
 ## Generate added messages and services with any dependencies listed here
-generate_messages(DEPENDENCIES std_msgs)
+# generate_messages(DEPENDENCIES std_msgs)
 
 catkin_package(CATKIN_DEPENDS
 # std_msgs
